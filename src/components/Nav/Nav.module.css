@@ -1,3 +1,50 @@
-/* .Nav {
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 0.75rem;
+  margin-bottom: 3rem;
+  width: max-content;
+  border-radius: 1.75rem;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  /* background-color: blue; */
+  -webkit-backdrop-filter: blur(.5rem);
+  backdrop-filter: blur(0.5rem);
+  background: #B2A4FF;
+  z-index: 100;
+  overflow: visible;
+}
 
-} */
+.icon {
+  position: relative;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  overflow: visible;
+}
+
+.active {
+  color: #B2A4FF;
+  background-color: #FFB4B4;
+  display: inline-flex;
+  border-radius: 1.75rem;
+
+  /* display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #B2A4FF;
+  background-color: #FFB4B4;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%; */
+}
+
+.disable {
+  color: #FFB4B4;
+}

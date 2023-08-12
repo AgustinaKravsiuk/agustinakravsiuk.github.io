@@ -9,12 +9,10 @@ import Contact from './components/Contact/Contact';
 import './App.css';
 
 function App() {
-const location = useLocation();
-
   return (
     <div className="App">
+      <Nav />
       <Routes>
-        {location.pathname !== '/' ? <Nav /> : null}
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/skills' element={<Skills />} />
