@@ -12,7 +12,7 @@
   /* background-color: blue; */
   -webkit-backdrop-filter: blur(.5rem);
   backdrop-filter: blur(0.5rem);
-  background: #B2A4FF;
+  background: #3F979B;
   z-index: 100;
   overflow: visible;
 }
@@ -30,8 +30,8 @@
 }
 
 .active {
-  color: #B2A4FF;
-  background-color: #FFB4B4;
+  color: #3F979B;
+  background-color: #8BF5FA;
   display: inline-flex;
   border-radius: 1.75rem;
 
@@ -46,5 +46,5 @@
 }
 
 .disable {
-  color: #FFB4B4;
+  color: #8BF5FA;
 }
